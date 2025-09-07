@@ -1,0 +1,194 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+
+
+\title{\Huge{Math 2550}}
+\author{\huge{PSET 2}}
+\date{September 11 2025}
+
+\begin{document}
+
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\section*{Ex 1.1}
+\addcontentsline{toc}{section}{Ex 1.1; Rudin 1.3}
+\qs{}{
+  Let $F$ be any ordered field (for example $F = \bbQ$ or $F = \R$).
+  Suppose $A \subset F$ has a supremum. Suppose $\eps \in F$
+  with $\eps > 0$. 
+  Prove that there exists some $x \in A$ such that $x > (\sup A) - \eps$.
+}
+
+\begin{proofWithHibiscus}
+  $A$ having a supremum means that there is some $y \in F$ that is a least upper bound for 
+  $F$ such that for any upper bound $y' \in F$, $y \leq y'$. Yet for all $x \in A$, $x \leq y$. \\
+  Let us suppose that the statement is false. That would mean that $\forall x \in A$, $x \leq (\sup A) - \epsilon$, wehre $\epsilon \geq 0$ \\
+  Letting $\sup A = y$ this would mean that there exists some uppwer bound $y - \epsilon < y$, since $\epsilon > 0$. 
+  Which contradicts the statement that $y$ is a upper bound of $A$ such that for all other upper bounds, $y'$ $y \leq y'$ Meaning the statement is true. 
+\end{proofWithHibiscus}
+
+
+\section*{Ex 1.2, Rudin 1.5}
+\addcontentsline{toc}{section}{Ex 1.2, Rudin 1.3}
+
+\qs{}{
+  Let $A \subset \R$ be nonempty and bounded below. Define
+  \begin{equation}
+  -A = \{-x\ \mid x \in A\} \, .  
+  \end{equation}
+  Prove that $\inf A = - \sup(-A)$.
+}
+
+\begin{proofWithHibiscus}
+  The infemum of $A$ is a number $y \in A$ such that $y$ is a lower bound for $A$ and any lower bound $y'$ 
+  for $A$ has $y' \leq y$. The supremum of $A$ is a number $z \in -A$ such that $z$ is a lower bound for $-A$ and any lower bound 
+  $z'$ for $A$ has $z \leq z'$. $\R$ is an ordered field and set meaning that the subset $A$ of $\R$
+  inherits that ordering. So for $x, x' \in A$, $x < x'$ if $x < x'$ in $\R$ but since $-A$ is defined by multiplying all 
+  values of $x \in A$ by $-1$ and if $x < x'$ and $c < 0$ where $c$ is $-1$ then $xc > x'(c)$. This means that the ordering of 
+  $A$ is flipped in $-A$. So what would have been our infimum of $A$ is now the supremum of $A$. Yet the sign is flipped again 
+  in the equation when we take the negative of the supremum of $-A$ making it once again the infimum of $A$ 
+\end{proofWithHibiscus}
+
+\section*{Ex 1.3}
+\addcontentsline{toc}{section}{Ex 1.3}
+
+\qs{}{
+  Suppose $A, B \subset \R$ are both nonempty and bounded above.
+  Define the set $A+B$ by
+  \begin{equation}
+    A + B = \{a+b \mid a \in A, b \in B\} \, .
+  \end{equation}
+  Prove that $\sup(A + B) = \sup A + \sup B$.
+}
+
+\begin{proofWithHibiscus}
+  The supremum of a set is a number $x$ in the set such that $x$ is a lower bound for the set and any lower bound 
+  $x'$ for the set has $x \leq x'$. $\R$ is an ordered field meaning that if follows the order axiom 
+  that means that if $a < b$ and $c < d$ then $a + b < c + d$. $A$ and $B$ are both subsets of the ordered field 
+  $R$ meaning that they also have an ordering. So that if $a, a'$ are in $\R$ and $b,b'$ are in $\R$ with $a < a'$ and $b < b'$ it follows that $a + b < a' + b'$ 
+  by the order axiom of fields so for all $x \in \R$ there exists some least upper bound $q$ such that 
+  $\forall x \in A$, $x \leq q$ and the same applies for $B$. Following the order axiom that means that $q + p \geq a + b$ for 
+  all $ a + b \in A, B$ 
+\end{proofWithHibiscus}
+
+
+
+\section*{Ex 1.4}
+\addcontentsline{toc}{section}{Ex 1.4}
+\qs{}{
+   
+  In each of the following, $S$ is an ordered set, and $A \subset S$.
+  Answer the following in each case, and prove your answers: 
+  \begin{itemize}
+  \item Is $A$ bounded above? 
+  \item Does $A$ have a maximum element, and if so, what is it? 
+  \item Does $A$ have a supremum in $S$, and if so, what is it?
+  \end{itemize}
+  \begin{enumerate}
+    \item $S = \Z$, $A = \{ 2, 3 \}$.
+    \item $S = \Q$, $A = \{ -\frac{2n}{5} \mid n \in \bbN \}$.
+    \item $S = \Q$, $A = \{ -\frac{1}{n} \mid n \in \bbN \}$.
+    \item $S = \Q$, $A = \{ \frac{1}{n} \mid n \in \bbN \}$.
+    \item $S = \Q$, $A = \{ x \in \Q \mid 0 < x \le 1 \}$.
+    \item $S = \Q$, $A = \{ x \in \Q \mid 0 < x < 1 \}$.
+    % \item $S = \Q$, $A = \{ x \in \Q \mid 0 < x^3 < 2 \}$.
+  \end{enumerate}
+
+}
+
+\begin{proofWithHibiscus}
+  \begin{enumerate}
+    \item $S = \Z$, $A = \{2, 3 \}$ 
+      \begin{enumerate}
+        \item It is bounded above, it has 2 elements $2,3$ and is a subset of the ordered set $\Z$ 
+          this means that it inheris the ordering. With $2 < 3$. So $A$ is bounded above by $3$
+        \item Yes, 3. 
+        \item Yes 3. 
+      \end{enumerate}
+    \item $S = \Q$, $A = \{ -\frac{2n}{5} \mid n \in \bbN \}$.
+      \begin{enumerate}
+        \item no
+        \item no
+        \item no 
+      \end{enumerate}
+    \item $S = \Q$, $A = \{ -\frac{1}{n} \mid n \in \bbN \}$.
+      \begin{enumerate}
+        \item Yes 
+        \item Yes, 1
+        \item Yes, 1
+      \end{enumerate}
+    \item $S = \Q$, $A = \{ \frac{1}{n} \mid n \in \bbN \}$.
+      \begin{enumerate}
+        \item Yes
+        \item Yes
+        \item Yes, 1 
+      \end{enumerate}
+    \item $S = \Q$, $A = \{ x \in \Q \mid 0 < x \le 1 \}$.
+      \begin{enumerate}
+        \item Yes
+        \item Yes, 1 
+        \item Yes, 1
+      \end{enumerate}
+    \item $S = \Q$, $A = \{ x \in \Q \mid 0 < x < 1 \}$.
+      \begin{enumerate}
+        \item Yes
+        \item No 
+        \item Yes, 1 
+      \end{enumerate}
+  \end{enumerate}
+\end{proofWithHibiscus}
+
+
+\qs{}{
+  Suppose $F$ is an ordered field and $x, y, z \in F$.
+  \begin{enumerate}
+      % \item Prove that $0<1$.
+      \item Prove that if $x>0$, then $x^{-1}>0$.
+      \item Prove that if $x>0$, then $y>z$ if and only if $xy>xz$.
+      \item Recall the field $\mathbb{F}_3 =\{0,1,2\}$ which we discussed in class. Prove that there does not exist an order on $\mathbb{F}_3$ such that it is an ordered field.
+  \end{enumerate}
+}
+
+\begin{proofWithHibiscus}
+  1. $F$ is an ordered field and fields have the property that $\forall x \in F \exists$ some $x' \in F$ such that $x \cdot x^{-1} = 1$ 
+  We know that $x > 0$ and that $x'$ is its multiplicative inverse. Lets suppose for sake of contradiction that 
+  $x^{-1} < 0$. This means that $x$ is a positive integer and $x'$ is a negative integer. The sign rules of multiplication 
+  state that a negative times a positive leads to a negative but if $x^{-1}$ is a multiplicative inverse of x 
+  then $x$ times $x^{-1}$ is a negative number which contradicts the statement that $x \cdot x ^{-1} = 1$  \\
+
+  2. Let us suppose that $x > 0$ and for sake of contradiction that $y < z$ however $xy > yz$. Since $F$ is an ordered field that 
+  means that there is some $x^{-1} \forall x \in F$ such that $x \cdot x^{-1} = 1$. This along with the 
+  prperty that if $x, y \in F$ then $xy \in F$ means that we can multiply both sides of the inequality $xy > yz$ by $x^{-1}$ 
+  \[ xy > yx \Rightarrow x \cdot x^{-1} \cdot y > x \cdot x^{-1} \cdot z \Rightarrow (x \cdot x^{-1})y > (x \cdot x^{-1})z \]
+  \[ \rightarrow (1)y > (1)z \Rightarrow y > z \]  Which contradicts the statement that $y < z$. \\
+  Now lets do the other side let us suppose for sake of contradiction that $xy < xz$ however $y > z$. Since $F$ is an ordered field that 
+  means that there is some $x^{-1} \forall x \in F$ such that $x \cdot x^{-1} = 1$. This along with the 
+  prperty that if $x, y \in F$ then $xy \in F$ means that we can multiply both sides of the inequality $xy > yz$ by $x^{-1}$ 
+\end{proofWithHibiscus}
+
+\qs{}{
+  This exercise is a reminder that the ``size'' of infinite sets can
+  be a bit counterintuitive.
+
+  \begin{enumerate}
+    \item
+  Suppose $a, b \in \R$, with $a < b$.
+  Prove that there is a bijection from $(a,b)$ to $(0,1)$.
+
+  \item Prove that there is a bijection from $(0,1)$ to $(1,\infty)$.
+
+  \item Suppose $a,b \in \R$. 
+  Prove that there is a bijection from $(a,\infty)$ to $(b,\infty)$.
+  \end{enumerate}
+}
+
+\end{document}
