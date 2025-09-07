@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/TeX Live for SUSE Linux) (preloaded format=pdflatex 2025.1.17)  4 SEP 2025 19:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/TeX Live for SUSE Linux) (preloaded format=pdflatex 2025.1.17)  7 SEP 2025 13:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/alex/Documents/Math 2550/PSet 1/Notes.tex"
-(/home/alex/Documents/Math 2550/PSet 1/Notes.tex
+**"/home/alex/Documents/MATH 2550 Analysis/PSet 3/Notes.tex"
+(/home/alex/Documents/MATH 2550 Analysis/PSet 3/Notes.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (/usr/share/texmf/tex/latex/base/report.cls
 Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
@@ -23,7 +23,7 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-) (/home/alex/Documents/Math 2550/PSet 1/preamble.tex (/usr/share/texmf/tex/latex/geometry/geometry.sty
+) (/home/alex/Documents/MATH 2550 Analysis/PSet 3/preamble.tex (/usr/share/texmf/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
  (/usr/share/texmf/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
@@ -1029,7 +1029,7 @@ File: tikzlibraryshadows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (/usr/share/texmf/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2019/10/16 v2.13 TOC entries
 \ttl@leftsep=\dimen339
-)) (/home/alex/Documents/Math 2550/PSet 1/macros.tex) (/home/alex/Documents/Math 2550/PSet 1/letterfonts.tex) (/home/alex/Documents/Math 2550/PSet 1/Notes.aux)
+)) (/home/alex/Documents/MATH 2550 Analysis/PSet 3/macros.tex) (/home/alex/Documents/MATH 2550 Analysis/PSet 3/letterfonts.tex) (/home/alex/Documents/MATH 2550 Analysis/PSet 3/Notes.aux)
 \openout1 = `Notes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/npxmi/m/it on input line 13.
@@ -1165,7 +1165,7 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-(/home/alex/Documents/Math 2550/PSet 1/Notes.toc)
+(/home/alex/Documents/MATH 2550 Analysis/PSet 3/Notes.toc)
 \tf@toc=\write7
 \openout7 = `Notes.toc'.
 
@@ -1185,7 +1185,7 @@ File: hibiscus.png Graphic file (type png)
 <use hibiscus.png>
 Package pdftex.def Info: hibiscus.png  used on input line 72.
 (pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
-[2 </home/alex/Documents/Math 2550/PSet 1/hibiscus.png>]
+[2 </home/alex/Documents/MATH 2550 Analysis/PSet 3/hibiscus.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
@@ -1210,7 +1210,7 @@ Package pdftex.def Info: hibiscus.png  used on input line 288.
 (pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
 [6
 
-] (/home/alex/Documents/Math 2550/PSet 1/Notes.aux)
+] (/home/alex/Documents/MATH 2550 Analysis/PSet 3/Notes.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -1221,14 +1221,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  45303 strings out of 478994
- 1017958 string characters out of 5867238
+ 1018111 string characters out of 5867238
  1614821 words of memory out of 5000000
  61897 multiletter control sequences out of 15000+600000
  432129 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,9n,110p,883b,1387s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 107i,9n,110p,892b,1387s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/type1/public/newpx/NewPXMI.pfb></usr/share/texmf/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/newpx/pxmiaX.pfb></usr/share/texmf/fonts/type1/public/newpx/pxsys.pfb></usr/share/texmf/fonts/type1/public/newtx/txexs.pfb></usr/share/texmf/fonts/type1/public/txfonts/txsyb.pfb>
-Output written on "/home/alex/Documents/Math 2550/PSet 1/Notes.pdf" (7 pages, 17490808 bytes).
+Output written on "/home/alex/Documents/MATH 2550 Analysis/PSet 3/Notes.pdf" (7 pages, 17490815 bytes).
 PDF statistics:
  212 PDF objects out of 1000 (max. 8388607)
  157 compressed objects within 2 object streams
