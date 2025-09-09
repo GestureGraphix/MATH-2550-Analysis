@@ -1,9 +1,9 @@
-PWD /home/alex/Documents/Math 2550/PSet 2
+PWD /home/alex/Documents/MATH 2550 Analysis/PSet 2
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/alex/Documents/Math 2550/PSet 2/Notes.tex
-OUTPUT /home/alex/Documents/Math 2550/PSet 2/Notes.log
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.tex
+OUTPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.log
 INPUT /usr/share/texmf/tex/latex/base/report.cls
 INPUT /usr/share/texmf/tex/latex/base/report.cls
 INPUT /usr/share/texmf/tex/latex/base/report.cls
@@ -19,17 +19,17 @@ INPUT /usr/share/texmf/tex/latex/base/size10.clo
 INPUT /usr/share/texmf/tex/latex/base/size10.clo
 INPUT /usr/share/texmf/tex/latex/base/size10.clo
 INPUT /usr/share/texmf/tex/latex/base/size10.clo
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/preamble.tex
 INPUT /usr/share/texmf/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texmf/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texmf/tex/latex/geometry/geometry.sty
@@ -1073,7 +1073,7 @@ INPUT /usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryf
 INPUT /usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex
 INPUT /usr/share/texmf/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
 INPUT /usr/share/texmf/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-OUTPUT /home/alex/Documents/Math 2550/PSet 2/Notes.pdf
+OUTPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.pdf
 INPUT /usr/share/texmf/tex/latex/tcolorbox/tcbposter.code.tex
 INPUT /usr/share/texmf/tex/latex/xcolor/xcolor.sty
 INPUT /usr/share/texmf/tex/latex/varwidth/varwidth.sty
@@ -1506,32 +1506,32 @@ INPUT /usr/share/texmf/tex/latex/titlesec/titletoc.sty
 INPUT /usr/share/texmf/tex/latex/titlesec/titletoc.sty
 INPUT /usr/share/texmf/tex/latex/titlesec/titletoc.sty
 INPUT /usr/share/texmf/tex/latex/titlesec/titletoc.sty
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/macros.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/letterfonts.tex
-INPUT /home/alex/Documents/Math 2550/PSet 2/Notes.aux
-INPUT /home/alex/Documents/Math 2550/PSet 2/Notes.aux
-INPUT /home/alex/Documents/Math 2550/PSet 2/Notes.aux
-OUTPUT /home/alex/Documents/Math 2550/PSet 2/Notes.aux
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/macros.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/letterfonts.tex
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.aux
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.aux
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.aux
+OUTPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.aux
 INPUT /usr/share/texmf/tex/latex/newpx/omlnpxmi.fd
 INPUT /usr/share/texmf/tex/latex/newpx/omlnpxmi.fd
 INPUT /usr/share/texmf/tex/latex/newpx/omlnpxmi.fd
@@ -1646,10 +1646,10 @@ INPUT /usr/share/texmf/fonts/tfm/public/cm/cmr17.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texmf/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /home/alex/Documents/Math 2550/PSet 2/Notes.toc
-INPUT /home/alex/Documents/Math 2550/PSet 2/Notes.toc
-INPUT /home/alex/Documents/Math 2550/PSet 2/Notes.toc
-OUTPUT /home/alex/Documents/Math 2550/PSet 2/Notes.toc
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.toc
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.toc
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.toc
+OUTPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.toc
 INPUT /usr/share/texmf/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/cm/cmbx10.tfm
@@ -1680,15 +1680,15 @@ INPUT /usr/share/texmf/fonts/tfm/public/newpx/zplsyc.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/newpx/zplexa.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/newpx/zplexa.tfm
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
 INPUT /usr/share/texmf/fonts/vf/public/newpx/zplmi.vf
 INPUT /usr/share/texmf/fonts/tfm/public/newpx/NewPXMI_gnu.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/newpx/NewPXMI.tfm
@@ -1702,24 +1702,28 @@ INPUT /usr/share/texmf/fonts/tfm/public/newtx/txex-bar.tfm
 INPUT /usr/share/texmf/fonts/vf/public/newpx/zplsy.vf
 INPUT /usr/share/texmf/fonts/tfm/public/newpx/pxsys.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/newtx/txex-bar.tfm
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
 INPUT /usr/share/texmf/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/share/texmf/fonts/vf/public/newpx/zplmi.vf
 INPUT /usr/share/texmf/fonts/tfm/public/newpx/NewPXMI_gnu.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/newpx/NewPXMI.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/newtx/stxscr.tfm
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/hibiscus.png
-INPUT /home/alex/Documents/Math 2550/PSet 2/Notes.aux
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png
+INPUT /home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/share/texmf/fonts/type1/public/newpx/NewPXMI.pfb
 INPUT /usr/share/texmf/fonts/type1/public/newpx/NewPXMI_gnu.pfb

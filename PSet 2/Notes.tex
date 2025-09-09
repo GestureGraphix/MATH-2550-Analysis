@@ -49,14 +49,20 @@
 }
 
 \begin{proofWithHibiscus}
-  The infemum of $A$ is a number $y \in A$ such that $y$ is a lower bound for $A$ and any lower bound $y'$ 
-  for $A$ has $y' \leq y$. The supremum of $A$ is a number $z \in -A$ such that $z$ is a lower bound for $-A$ and any lower bound 
-  $z'$ for $A$ has $z \leq z'$. $\R$ is an ordered field and set meaning that the subset $A$ of $\R$
-  inherits that ordering. So for $x, x' \in A$, $x < x'$ if $x < x'$ in $\R$ but since $-A$ is defined by multiplying all 
-  values of $x \in A$ by $-1$ and if $x < x'$ and $c < 0$ where $c$ is $-1$ then $xc > x'(c)$. This means that the ordering of 
-  $A$ is flipped in $-A$. So what would have been our infimum of $A$ is now the supremum of $A$. Yet the sign is flipped again 
-  in the equation when we take the negative of the supremum of $-A$ making it once again the infimum of $A$ 
+  The infimum of $A$ is a number $y \in \R$ such that $y$ is a lower bound for $A$ and for any other lower bound $y'$ of $A$ we have $y' \leq y$. The supremum of a set $B$ is a number $z \in \R$ such that $z$ is an upper bound for $B$ and for any other upper bound $z'$ of $B$ we have $z \leq z'$. 
+  
+  $-A$ is defined by multiplying each element of $A$ by $-1$. In $\R$, if $x < x'$ and $c < 0$ then $xc > x'c$, so the order is reversed when we pass from $A$ to $-A$. That means every lower bound of $A$ becomes an upper bound of $-A$, and conversely. In particular, the greatest lower bound of $A$ corresponds to the least upper bound of $-A$ under this reversal.
+  
+  So let $y = \inf A$. Then for all $x \in A$ we have $y \leq x$, which is equivalent to $-x \leq -y$ for all $x \in A$. This shows $-y$ is an upper bound of $-A$. 
+  
+  Now suppose $u$ is any other upper bound of $-A$. Then for all $x \in A$ we have $-x \leq u$, which means $x \geq -u$. Thus $-u$ is a lower bound of $A$, and since $y$ is the greatest lower bound of $A$ we have $-u \leq y$. Rearranging gives $u \geq -y$. Therefore $-y$ is the least upper bound of $-A$, so \ $\sup(-A) = -y$. 
+  
+  So
+  \[
+  \inf A = -\sup(-A).
+  \]
 \end{proofWithHibiscus}
+  
 
 \section*{Ex 1.3}
 \addcontentsline{toc}{section}{Ex 1.3}
@@ -159,20 +165,35 @@
 }
 
 \begin{proofWithHibiscus}
-  1. $F$ is an ordered field and fields have the property that $\forall x \in F \exists$ some $x' \in F$ such that $x \cdot x^{-1} = 1$ 
-  We know that $x > 0$ and that $x'$ is its multiplicative inverse. Lets suppose for sake of contradiction that 
-  $x^{-1} < 0$. This means that $x$ is a positive integer and $x'$ is a negative integer. The sign rules of multiplication 
-  state that a negative times a positive leads to a negative but if $x^{-1}$ is a multiplicative inverse of x 
-  then $x$ times $x^{-1}$ is a negative number which contradicts the statement that $x \cdot x ^{-1} = 1$  \\
+  1. Let $F$ be an ordered field and let $x>0$. Because $F$ is a field, there exists
+  $x^{-1}\in F$ with $x\cdot x^{-1}=1$, and $x^{-1}\neq 0$.
+  Assume for contradiction that $x^{-1}\le 0$. Since $x^{-1}\neq 0$, we have $x^{-1}<0$.
+  In an ordered field, multiplying an inequality by a negative number reverses the
+  inequality; hence from $x>0$ we obtain
+  \[
+  x\cdot x^{-1} \;<\; 0 \quad\Longrightarrow\quad 1<0.
+  \]
+  But in any ordered field every nonzero square is positive, so $1=1^2>0$, a contradiction.
+  Therefore $x^{-1}>0$. \\
 
-  2. Let us suppose that $x > 0$ and for sake of contradiction that $y < z$ however $xy > yz$. Since $F$ is an ordered field that 
-  means that there is some $x^{-1} \forall x \in F$ such that $x \cdot x^{-1} = 1$. This along with the 
-  prperty that if $x, y \in F$ then $xy \in F$ means that we can multiply both sides of the inequality $xy > yz$ by $x^{-1}$ 
-  \[ xy > yx \Rightarrow x \cdot x^{-1} \cdot y > x \cdot x^{-1} \cdot z \Rightarrow (x \cdot x^{-1})y > (x \cdot x^{-1})z \]
-  \[ \rightarrow (1)y > (1)z \Rightarrow y > z \]  Which contradicts the statement that $y < z$. \\
-  Now lets do the other side let us suppose for sake of contradiction that $xy < xz$ however $y > z$. Since $F$ is an ordered field that 
-  means that there is some $x^{-1} \forall x \in F$ such that $x \cdot x^{-1} = 1$. This along with the 
-  prperty that if $x, y \in F$ then $xy \in F$ means that we can multiply both sides of the inequality $xy > yz$ by $x^{-1}$ 
+  2. Let $x>0$. First suppose for contradiction that $y<z$ but $xy > xz$.  
+  Since $x^{-1}>0$ by part (1), multiplying both sides of $xy > xz$ by $x^{-1}$ preserves the inequality:
+  \[
+  xy > xz \;\;\Rightarrow\;\; x^{-1}(xy) > x^{-1}(xz) 
+  \;\;\Rightarrow\;\; (x \cdot x^{-1})y > (x \cdot x^{-1})z
+  \;\;\Rightarrow\;\; y > z,
+  \]
+  contradicting $y<z$.
+  
+  For the other direction, suppose for contradiction that $y>z$ but $xy < xz$. Multiplying both sides by $x^{-1}>0$ preserves the inequality:
+  \[
+  xy < xz \;\;\Rightarrow\;\; x^{-1}(xy) < x^{-1}(xz)
+  \;\;\Rightarrow\;\; (x \cdot x^{-1})y < (x \cdot x^{-1})z
+  \;\;\Rightarrow\;\; y < z,
+  \]
+  contradicting $y>z$.
+  
+  Hence $y>z \iff xy > xz$.
 \end{proofWithHibiscus}
 
 \qs{}{
@@ -190,5 +211,13 @@
   Prove that there is a bijection from $(a,\infty)$ to $(b,\infty)$.
   \end{enumerate}
 }
+
+\begin{proofWithHibiscus}
+  \begin{enumerate}
+    \item Let $(0,1)$ be a subset of $\R$ that inherits its conventional ordering this means that $0 < 1$. A bijection 
+      There is a bijection if there is both a surjection a injection 
+    
+  \end{enumerate}
+\end{proofWithHibiscus}
 
 \end{document}
