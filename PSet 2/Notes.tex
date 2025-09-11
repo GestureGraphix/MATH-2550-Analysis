@@ -30,10 +30,13 @@
 
 \begin{proofWithHibiscus}
   $A$ having a supremum means that there is some $y \in F$ that is a least upper bound for 
-  $F$ such that for any upper bound $y' \in F$, $y \leq y'$. Yet for all $x \in A$, $x \leq y$. \\
-  Let us suppose that the statement is false. That would mean that $\forall x \in A$, $x \leq (\sup A) - \epsilon$, wehre $\epsilon \geq 0$ \\
-  Letting $\sup A = y$ this would mean that there exists some uppwer bound $y - \epsilon < y$, since $\epsilon > 0$. 
-  Which contradicts the statement that $y$ is a upper bound of $A$ such that for all other upper bounds, $y'$ $y \leq y'$ Meaning the statement is true. 
+  $A$ such that for any upper bound $y' \in F$, $y \leq y'$. Yet for all $x \in A$, $x \leq y$. \\
+
+  Let us suppose that the statement is false. That would mean that $\forall x \in A$, $x \leq (\sup A) - \epsilon$, where $\epsilon > 0$. \\
+
+  Letting $\sup A = y$, this would mean that $y - \epsilon$ is an upper bound of $A$, since for all $x \in A$, $x \leq y - \epsilon$. But because $\epsilon > 0$, we have $y - \epsilon < y$. \\
+
+  This contradicts the statement that $y$ is a least upper bound of $A$, such that for all other upper bounds $y'$, $y \leq y'$. So there must exist form $x \in A$ such that $s > (\sup A) - \epsilon$ 
 \end{proofWithHibiscus}
 
 
@@ -49,19 +52,20 @@
 }
 
 \begin{proofWithHibiscus}
-  The infimum of $A$ is a number $y \in \R$ such that $y$ is a lower bound for $A$ and for any other lower bound $y'$ of $A$ we have $y' \leq y$. The supremum of a set $B$ is a number $z \in \R$ such that $z$ is an upper bound for $B$ and for any other upper bound $z'$ of $B$ we have $z \leq z'$. 
-  
-  $-A$ is defined by multiplying each element of $A$ by $-1$. In $\R$, if $x < x'$ and $c < 0$ then $xc > x'c$, so the order is reversed when we pass from $A$ to $-A$. That means every lower bound of $A$ becomes an upper bound of $-A$, and conversely. In particular, the greatest lower bound of $A$ corresponds to the least upper bound of $-A$ under this reversal.
-  
-  So let $y = \inf A$. Then for all $x \in A$ we have $y \leq x$, which is equivalent to $-x \leq -y$ for all $x \in A$. This shows $-y$ is an upper bound of $-A$. 
-  
-  Now suppose $u$ is any other upper bound of $-A$. Then for all $x \in A$ we have $-x \leq u$, which means $x \geq -u$. Thus $-u$ is a lower bound of $A$, and since $y$ is the greatest lower bound of $A$ we have $-u \leq y$. Rearranging gives $u \geq -y$. Therefore $-y$ is the least upper bound of $-A$, so \ $\sup(-A) = -y$. 
-  
-  So
+  The infimum of $A$ is a number $y \in \R$ such that $y$ is a lower bound for $A$ and for any other lower bound $y'$ of $A$ we have $y' \leq y$. The supremum of a set $B$ is a number $z \in \R$ such that $z$ is an upper bound for $B$ and for any other upper bound $z'$ of $B$ we have $z \leq z'$.  \\
+
+  $-A$ is defined by multiplying each element of $A$ by $-1$. Suppose $x, x' \in A$ with $x \leq x'$. Multiplying both sides by $-1$ yields $-x \geq -x'$. So the original ordering of A is reversed in -A. Smaller elements of $A$ correspond to larger elements of $-A$, and larger elements of $A$ correspond to smaller elements of $-A$. \\
+
+  In particular, if $y$ is a lower bound of $A$, i.e.\ $y \leq x$ for all $x \in A$, then multiplying by $-1$ gives $-x \leq -y$ for all $x \in A$, so $-y$ is an upper bound of $-A$. If $u$ is an upper bound of $-A$, i.e.\ $-x \leq u$ for all $x \in A$, then $x \geq -u$ for all $x \in A$, so $-u$ is a lower bound of $A$. \\
+
+  So let $y = \inf A$. Then for all $x \in A$ we have $y \leq x$, which is equivalent to $-x \leq -y$ for all $x \in A$. So $-y$ is an upper bound of $-A$. \\
+
+  Now suppose $u$ is any other upper bound of $-A$. Then for all $x \in A$ we have $-x \leq u$, which means $x \geq -u$. So $-u$ is a lower bound of $A$, and since $y$ is the greatest lower bound of $A$ we have $-u \leq y$. Rearranging gives $u \geq -y$. Therefore $-y$ is the least upper bound of $-A$, so $\sup(-A) = -y$. \\
   \[
   \inf A = -\sup(-A).
   \]
 \end{proofWithHibiscus}
+
   
 
 \section*{Ex 1.3}
@@ -77,14 +81,26 @@
 }
 
 \begin{proofWithHibiscus}
-  The supremum of a set is a number $x$ in the set such that $x$ is a lower bound for the set and any lower bound 
-  $x'$ for the set has $x \leq x'$. $\R$ is an ordered field meaning that if follows the order axiom 
-  that means that if $a < b$ and $c < d$ then $a + b < c + d$. $A$ and $B$ are both subsets of the ordered field 
-  $R$ meaning that they also have an ordering. So that if $a, a'$ are in $\R$ and $b,b'$ are in $\R$ with $a < a'$ and $b < b'$ it follows that $a + b < a' + b'$ 
-  by the order axiom of fields so for all $x \in \R$ there exists some least upper bound $q$ such that 
-  $\forall x \in A$, $x \leq q$ and the same applies for $B$. Following the order axiom that means that $q + p \geq a + b$ for 
-  all $ a + b \in A, B$ 
+  The supremum of a set $S$ is a number $y \in \R$ such that $y$ is an upper bound for $S$ and for any other upper bound $y'$ of $S$ we have $y \leq y'$. \\
+
+  Let $q = \sup A$ and $p = \sup B$. Then for all $a \in A$, $a \leq q$, and for all $b \in B$, $b \leq p$. Adding these gives $a+b \leq q+p$ for all $a \in A$, $b \in B$. So $q+p$ is an upper bound of $A+B$. \\
+
+  WTS that $q + p$ is a least upper bound. Let $\epsilon > 0$.  
+  By definition of the supremum, for every $\epsilon > 0$ there exists $a \in A$ with $q - \tfrac{\epsilon}{2} < a \leq q$.  
+  Similarly, since $p = \sup B$, there exists $b \in B$ with $p - \tfrac{\epsilon}{2} < b \leq p$.  
+  Then
+  \[
+    a+b > (q-\tfrac{\epsilon}{2}) + (p-\tfrac{\epsilon}{2}) = q+p - \epsilon.
+  \]
+  
+  So for every $\epsilon > 0$, there is an element $a+b \in A+B$ greater than $q+p - \epsilon$. So $q+p$ is the least upper bound of $A+B$. \\
+
+  Therefore
+  \[
+    \sup(A+B) = \sup A + \sup B.
+  \]
 \end{proofWithHibiscus}
+
 
 
 
@@ -113,45 +129,51 @@
 
 \begin{proofWithHibiscus}
   \begin{enumerate}
-    \item $S = \Z$, $A = \{2, 3 \}$ 
+    \item $S = \Z$, $A = \{2,3\}$. 
       \begin{enumerate}
-        \item It is bounded above, it has 2 elements $2,3$ and is a subset of the ordered set $\Z$ 
-          this means that it inheris the ordering. With $2 < 3$. So $A$ is bounded above by $3$
-        \item Yes, 3. 
-        \item Yes 3. 
+        \item $A$ is bounded above since $3$ is an upper bound, and any $u \ge 3$ also works.  
+        \item $A$ has a maximum. The largest element is $3$.  
+        \item The supremum in $\Z$ is $3$, because the maximum is also the least upper bound.  
       \end{enumerate}
-    \item $S = \Q$, $A = \{ -\frac{2n}{5} \mid n \in \bbN \}$.
+  
+    \item $S = \Q$, $A = \{-\tfrac{2n}{5} \mid n \in \N\} = \{-\tfrac25, -\tfrac45, -\tfrac65, \dots\}$.  
       \begin{enumerate}
-        \item no
-        \item no
-        \item no 
+        \item $A$ is bounded above. The element $-\tfrac25$ is an upper bound.  
+        \item $A$ has a maximum. The largest element is $-\tfrac25$.  
+        \item The supremum in $\Q$ is $-\tfrac25$, since the maximum is the least upper bound.  
       \end{enumerate}
-    \item $S = \Q$, $A = \{ -\frac{1}{n} \mid n \in \bbN \}$.
+  
+    \item $S = \Q$, $A = \{-\tfrac{1}{n} \mid n \in \N\} = \{-1, -\tfrac12, -\tfrac13, \dots\}$.  
       \begin{enumerate}
-        \item Yes 
-        \item Yes, 1
-        \item Yes, 1
+        \item $A$ is bounded above, because every element is $\le 0$.  
+        \item $A$ does not have a maximum. The elements increase toward $0$, but $0 \notin A$.  
+        \item $A$ has a supremum, which is $0$. First, $0$ is an upper bound. If $y<0$, choose $n > \frac{-1}{y}$. Then $-\tfrac1n > y$, so $y$ is not an upper bound. So $0$ is the least upper bound.  
       \end{enumerate}
-    \item $S = \Q$, $A = \{ \frac{1}{n} \mid n \in \bbN \}$.
+  
+    \item $S = \Q$, $A = \{\tfrac{1}{n} \mid n \in \N\} = \{1, \tfrac12, \tfrac13, \dots\}$.  
       \begin{enumerate}
-        \item Yes
-        \item Yes
-        \item Yes, 1 
+        \item $A$ is bounded above, because $1$ is an upper bound.  
+        \item $A$ has a maximum. The largest element is $1$.  
+        \item The supremum is $1$, since the maximum is always the supremum.  
       \end{enumerate}
-    \item $S = \Q$, $A = \{ x \in \Q \mid 0 < x \le 1 \}$.
+  
+    \item $S = \Q$, $A = \{x \in \Q \mid 0<x \le 1\}$.  
       \begin{enumerate}
-        \item Yes
-        \item Yes, 1 
-        \item Yes, 1
+        \item $A$ is bounded above, because $1$ is an upper bound.  
+        \item $A$ has a maximum. The largest element is $1$.  
+        \item The supremum in $\Q$ is $1$, since it is the maximum.  
       \end{enumerate}
-    \item $S = \Q$, $A = \{ x \in \Q \mid 0 < x < 1 \}$.
+  
+    \item $S = \Q$, $A = \{x \in \Q \mid 0<x<1\}$.  
       \begin{enumerate}
-        \item Yes
-        \item No 
-        \item Yes, 1 
+        \item $A$ is bounded above, because $1$ is an upper bound.  
+        \item $A$ does not have a maximum. For any $x<1$ in $A$, the rational $x'=\tfrac{x+1}{2}$ is still in $A$ and larger than $x$.  
+        \item $A$ has a supremum, which is $1$. First, $1$ is an upper bound. If $y<1$, pick $n$ large and set $x=1-\tfrac1n$. Then $x \in A$ and $x>y$, so $y$ is not an upper bound. So $1$ is the least upper bound.  
       \end{enumerate}
   \end{enumerate}
-\end{proofWithHibiscus}
+  \end{proofWithHibiscus}
+  
+  
 
 
 \qs{}{
@@ -193,7 +215,38 @@
   \]
   contradicting $y>z$.
   
-  Hence $y>z \iff xy > xz$.
+  Hence $y>z \iff xy > xz$. \\
+
+  3. Suppose for contradiction that there is an order on $\mathbb{F}_3=\{0,1,2\}$ 
+  making it an ordered field. By definition, an ordered field is a field with an order 
+  satisfying two axioms. First, for all $x,y,z \in F$ with $y<z$, we must have 
+  $x+y<x+z$. Second, for all $x,y \in F$ with $x>0$ and $y>0$, we must have $xy>0$. \\
+  
+  
+  Since $\mathbb{F}_3=\{0,1,2\}$ has three elements, any total order must be a linear arrangement of these three numbers. There are $3!=6$ possible such orderings.  We show that each leads to a contradiction.  \\
+  
+  Case 1: $0<1<2$.  
+  From $1<2$, by axiom (1) with $x=1$, we get $2<0$ (since $2+1=0$ in $\mathbb{F}_3$), 
+  contradicting $0<\cdots<2$. \\
+  
+  Case 2: $0<2<1$.  
+  From $0<2$, by axiom (1) with $x=1$, we get $1<0$, contradicting $0<\cdots<1$.  \\
+  
+  Case 3: $1<0<2$.  
+  From $1<0$, by axiom (1) with $x=1$, we get $2<1$, contradicting $1<\cdots<2$.  \\
+  
+  Case 4: $1<2<0$.  
+  From $2<0$, by axiom (1) with $x=1$, we get $0<1$, contradicting $1<\cdots<0$.  \\
+  
+  Case 5: $2<0<1$.  
+  From $0<1$, by axiom (1) with $x=1$, we get $1<2$, contradicting $2<\cdots<1$.  \\
+  
+  Case 6: $2<1<0$.  
+  From $2<1$, by axiom (1) with $x=1$, we get $0<2$, contradicting $2<\cdots<0$.  \\
+  
+  In every possible ordering of $\F_{3}$ assuming such an order leads to a contradiction with
+  the property that for all $x,y,z \in F$ with $y<z$, we must have $x+y<x+z$. Therefore no order exists on $\mathbb{F}_3$ that would make it an ordered field.
+
 \end{proofWithHibiscus}
 
 \qs{}{
@@ -213,11 +266,48 @@
 }
 
 \begin{proofWithHibiscus}
-  \begin{enumerate}
-    \item Let $(0,1)$ be a subset of $\R$ that inherits its conventional ordering this means that $0 < 1$. A bijection 
-      There is a bijection if there is both a surjection a injection 
-    
-  \end{enumerate}
+  1. Suppose $a,b \in \R$ with $a<b$. We want a bijection from $(a,b)$ to $(0,1)$. 
+  I want to send $a$ to $0$ and $b$ to $1$, so 
+  \[
+    f(x) = \frac{x-a}{b-a}.
+  \]
+  Since $a<x<b$, we get $0<f(x)<1$, so $f$ maps into $(0,1)$. 
+  If $f(x_1)=f(x_2)$ then $\frac{x_1-a}{b-a}=\frac{x_2-a}{b-a}$, which gives $x_1=x_2$, so $f$ is injective. 
+  For surjectivity, if $y\in(0,1)$ then $x=a+y(b-a)$ lies in $(a,b)$ and satisfies $f(x)=y$. 
+  So $f$ is a bijection. \\
+
+  2. We want a bijection from $(0,1)$ to $(1,\infty)$. 
+  Let 
+  \[
+    g(x) = \frac{1}{x}.
+  \]
+  If $0<x<1$ then $1<1/x<\infty$, so $g(x)\in(1,\infty)$. 
+  If $g(x_1)=g(x_2)$ then $1/x_1=1/x_2$, so $x_1=x_2$, so this function is injective. 
+  For surjectivity, given $y>1$ we take $x=1/y$, which lies in $(0,1)$ and satisfies $g(x)=y$. 
+  So $g$ is a bijection. \\
+
+  3. Suppose $a,b \in \R$. WTS there is a bijection from $(a,\infty)$ to $(b,\infty)$. 
+  Both sets are unbounded intervals, and the idea is to show that if we can list out all the elements of one interval as a sequence, then we can relabel that list to get the other interval. 
+
+  Consider $(a,\infty)$. For each natural number $n$ we can define
+  \[
+    x_n = a+n.
+  \]
+  This gives a sequence $(x_n)$ in $(a,\infty)$, and in fact every point of $(a,\infty)$ lies between some consecutive terms of this sequence. Similarly, we can build a sequence in $(b,\infty)$ by
+  \[
+    y_n = b+n.
+  \]
+  Again, every point of $(b,\infty)$ lies between some consecutive $y_n$’s. 
+
+  The map $h:(a,\infty)\to(b,\infty)$ defined by
+  \[
+    h(x) = x+(b-a)
+  \]
+  lines these sequences up. We have $h(x_n)=y_n$ for every $n$. If $x>a$, then $h(x)>b$, so the map goes into $(b,\infty)$. If $h(x_1)=h(x_2)$, then $x_1+(b-a)=x_2+(b-a)$ so $x_1=x_2$, proving injectivity. And given any $y>b$, we can write $y=h(x)$ with $x=y-(b-a)>a$, so the map is also surjective. 
+
+  Thus $h$ is a bijection from $(a,\infty)$ to $(b,\infty)$.
 \end{proofWithHibiscus}
+
+
 
 \end{document}

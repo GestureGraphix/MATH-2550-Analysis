@@ -1732,6 +1732,7 @@ INPUT /usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb
 INPUT /usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/share/texmf/fonts/type1/public/newpx/pxmiaX.pfb

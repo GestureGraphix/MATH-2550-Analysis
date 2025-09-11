@@ -1,5 +1,5 @@
 \contentsline {section}{Ex 1.1; Rudin 1.3}{2}{section*.2}%
 \contentsline {section}{Ex 1.2, Rudin 1.3}{2}{section*.3}%
-\contentsline {section}{Ex 1.3}{2}{section*.4}%
+\contentsline {section}{Ex 1.3}{3}{section*.4}%
 \contentsline {section}{Ex 1.4}{3}{section*.5}%
 \contentsfinish 
