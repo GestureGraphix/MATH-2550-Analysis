@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/TeX Live for SUSE Linux) (preloaded format=pdflatex 2025.1.17)  11 SEP 2025 16:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/TeX Live for SUSE Linux) (preloaded format=pdflatex 2025.1.17)  11 SEP 2025 16:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1195,7 +1195,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-<hibiscus.png, id=70, 3637.59pt x 3737.965pt>
+<hibiscus.png, id=76, 3637.59pt x 3737.965pt>
 File: hibiscus.png Graphic file (type png)
 <use hibiscus.png>
 Package pdftex.def Info: hibiscus.png  used on input line 40.
@@ -1251,77 +1251,77 @@ Package pdftex.def Info: hibiscus.png  used on input line 102.
 [3]
 File: hibiscus.png Graphic file (type png)
 <use hibiscus.png>
-Package pdftex.def Info: hibiscus.png  used on input line 174.
+Package pdftex.def Info: hibiscus.png  used on input line 176.
 (pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--200
+Underfull \hbox (badness 10000) in paragraph at lines 201--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--224
+Underfull \hbox (badness 10000) in paragraph at lines 224--228
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--231
+Underfull \hbox (badness 10000) in paragraph at lines 232--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
+Underfull \hbox (badness 10000) in paragraph at lines 236--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--237
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--240
+Underfull \hbox (badness 10000) in paragraph at lines 242--244
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--246
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
 
  []
 
 [4]
 File: hibiscus.png Graphic file (type png)
 <use hibiscus.png>
-Package pdftex.def Info: hibiscus.png  used on input line 250.
+Package pdftex.def Info: hibiscus.png  used on input line 254.
 (pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--278
+Underfull \hbox (badness 10000) in paragraph at lines 281--286
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--288
+Underfull \hbox (badness 10000) in paragraph at lines 291--296
 
  []
 
 [5]
 File: hibiscus.png Graphic file (type png)
 <use hibiscus.png>
-Package pdftex.def Info: hibiscus.png  used on input line 309.
+Package pdftex.def Info: hibiscus.png  used on input line 317.
 (pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
  [6] (/home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.aux)
 
@@ -1333,18 +1333,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45317 strings out of 478994
- 1018422 string characters out of 5867238
- 1603375 words of memory out of 5000000
+ 45319 strings out of 478994
+ 1018417 string characters out of 5867238
+ 1603364 words of memory out of 5000000
  61913 multiletter control sequences out of 15000+600000
  430522 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,7n,110p,832b,1387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/newpx/NewPXMI.pfb></usr/share/texmf/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/newpx/pxmiaX.pfb></usr/share/texmf/fonts/type1/public/newpx/pxsys.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.pdf" (7 pages, 17490011 bytes).
+Output written on "/home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.pdf" (7 pages, 17490696 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
