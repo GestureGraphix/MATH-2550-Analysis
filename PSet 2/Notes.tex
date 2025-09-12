@@ -67,6 +67,7 @@
 \end{proofWithHibiscus}
 
   
+\newpage 
 
 \section*{Ex 2.3}
 \addcontentsline{toc}{section}{Ex 2.3}
@@ -103,6 +104,7 @@
 
 
 
+\newpage
 
 \section*{Ex 2.4}
 \addcontentsline{toc}{section}{Ex 2.4}
@@ -257,6 +259,7 @@
 \section*{Ex 2.6}
 \addcontentsline{toc}{section}{Ex 2.6}
 
+
 \qs{}{
   This exercise is a reminder that the ``size'' of infinite sets can
   be a bit counterintuitive.
@@ -294,26 +297,16 @@
   For surjectivity, given $y>1$ we take $x=1/y$, which lies in $(0,1)$ and satisfies $g(x)=y$. 
   So $g$ is a bijection. \\
 
-  3. Suppose $a,b \in \R$. WTS there is a bijection from $(a,\infty)$ to $(b,\infty)$. 
-  Both sets are unbounded intervals, and WTS if we can list out all the elements of one interval as a sequence, then we can relabel that list to get the other interval. 
-
-  Consider $(a,\infty)$. For each natural number $n$ we can define
+  3. Suppose $a,b \in \R$. We want a bijection from $(a,\infty)$ to $(b,\infty)$. 
+  Define 
   \[
-    x_n = a+n.
+    h(x) = x+(b-a).
   \]
-  This gives a sequence $(x_n)$ in $(a,\infty)$, and in fact every point of $(a,\infty)$ lies between some consecutive terms of this sequence. Similarly, we can build a sequence in $(b,\infty)$ by
-  \[
-    y_n = b+n.
-  \]
-  Again, every point of $(b,\infty)$ lies between some consecutive $y_n$’s. 
-
-  The map $h:(a,\infty)\to(b,\infty)$ defined by
-  \[
-    h(x) = x+(b-a)
-  \]
-  lines these sequences up. We have $h(x_n)=y_n$ for every $n$. If $x>a$, then $h(x)>b$, so the map goes into $(b,\infty)$. If $h(x_1)=h(x_2)$, then $x_1+(b-a)=x_2+(b-a)$ so $x_1=x_2$, proving injectivity. And given any $y>b$, we can write $y=h(x)$ with $x=y-(b-a)>a$, so the map is also surjective. 
-
-  Thus $h$ is a bijection from $(a,\infty)$ to $(b,\infty)$.
+  If $x>a$, then $h(x) > b$, so $h(x) \in (b,\infty)$. 
+  If $h(x_1)=h(x_2)$, then $x_1+(b-a)=x_2+(b-a)$, which gives $x_1=x_2$, so $h$ is injective. 
+  For surjectivity, if $y \in (b,\infty)$ then $x=y-(b-a)$ lies in $(a,\infty)$ and satisfies $h(x)=y$. 
+  So $h$ is a bijection from $(a,\infty)$ to $(b,\infty)$. 
+  
 \end{proofWithHibiscus}
 
 

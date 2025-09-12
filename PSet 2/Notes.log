@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/TeX Live for SUSE Linux) (preloaded format=pdflatex 2025.1.17)  11 SEP 2025 16:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/TeX Live for SUSE Linux) (preloaded format=pdflatex 2025.1.17)  11 SEP 2025 20:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1230,100 +1230,99 @@ File: hibiscus.png Graphic file (type png)
 Package pdftex.def Info: hibiscus.png  used on input line 67.
 (pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
 [2 </home/alex/Documents/MATH 2550 Analysis/PSet 2/hibiscus.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
 File: hibiscus.png Graphic file (type png)
 <use hibiscus.png>
-Package pdftex.def Info: hibiscus.png  used on input line 102.
+Package pdftex.def Info: hibiscus.png  used on input line 103.
 (pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
-[3]
+[3] [4]
 File: hibiscus.png Graphic file (type png)
 <use hibiscus.png>
-Package pdftex.def Info: hibiscus.png  used on input line 176.
+Package pdftex.def Info: hibiscus.png  used on input line 178.
 (pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--204
+Underfull \hbox (badness 10000) in paragraph at lines 203--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--228
+Underfull \hbox (badness 10000) in paragraph at lines 226--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
+Underfull \hbox (badness 10000) in paragraph at lines 234--237
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--238
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--241
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
-
- []
-
-[4]
-File: hibiscus.png Graphic file (type png)
-<use hibiscus.png>
-Package pdftex.def Info: hibiscus.png  used on input line 254.
-(pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--296
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
 
  []
 
 [5]
 File: hibiscus.png Graphic file (type png)
 <use hibiscus.png>
-Package pdftex.def Info: hibiscus.png  used on input line 317.
+Package pdftex.def Info: hibiscus.png  used on input line 256.
 (pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
- [6] (/home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--289
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--299
+
+ []
+
+File: hibiscus.png Graphic file (type png)
+<use hibiscus.png>
+Package pdftex.def Info: hibiscus.png  used on input line 310.
+(pdftex.def)             Requested size: 25.6073pt x 26.2939pt.
+[6] (/home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -1333,15 +1332,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 45319 strings out of 478994
- 1018417 string characters out of 5867238
- 1603364 words of memory out of 5000000
- 61913 multiletter control sequences out of 15000+600000
+ 45318 strings out of 478994
+ 1018398 string characters out of 5867238
+ 1594536 words of memory out of 5000000
+ 61912 multiletter control sequences out of 15000+600000
  430522 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,7n,110p,832b,1387s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/newpx/NewPXMI.pfb></usr/share/texmf/fonts/type1/public/newpx/NewPXMI_gnu.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf/fonts/type1/public/newpx/pxmiaX.pfb></usr/share/texmf/fonts/type1/public/newpx/pxsys.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on "/home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.pdf" (7 pages, 17490686 bytes).
+Output written on "/home/alex/Documents/MATH 2550 Analysis/PSet 2/Notes.pdf" (7 pages, 17490330 bytes).
 PDF statistics:
  225 PDF objects out of 1000 (max. 8388607)
  169 compressed objects within 2 object streams
