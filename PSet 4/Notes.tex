@@ -1,0 +1,238 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+
+
+\title{\Huge{Math 2550}}
+\author{\huge{PSET 3}}
+\date{September 18 2025}
+
+\begin{document}
+
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\section*{Ex 3.1}
+\addcontentsline{toc}{section}{Ex 3.1}
+\qs{}{
+  Prove that $\bbN$ is not bounded above in $\R$.
+}
+
+\begin{proofWithHibiscus}
+  Suppose for contradiction that $\N$ is bounded above in $\R$. Then there is some $x' \in \R$ such that 
+  $n \leq x'$ for all $n \in \N$. We can take the floor of $x'$, $k = \lfloor x' \rfloor$. We need to take the floor of the upper bound 
+  as we know our upper bound would be in $\R$ but it is not guranteed to be in the set $\N$ but its floor is. Then $k \in \N$ and $k \leq x'$. 
+  But $k+1$ is also in $\N$ and $k+1 > x'$. This contradicts $x'$ being an upper bound. 
+  So $\N$ is not bounded above in $\R$.
+\end{proofWithHibiscus}
+
+
+
+
+\section*{Ex 3.2}
+\addcontentsline{toc}{section}{Ex 3.2}
+
+\qs{}{
+  In class we proved: if $I_n \subset \R$ is a closed interval for each $n \in \bbN$,
+  and $I_{n+1} \subset I_n$ for all $n$, then $\bigcap_{n=1}^\infty I_n$ is nonempty. What if the $I_n$
+  were open intervals instead? Then is $\bigcap_{n=1}^\infty I_n$ still nonempty? Prove it or give a counterexample.
+}
+
+\begin{proofWithHibiscus}
+  The result does not always hold for open intervals. 
+  Take $I_n = (0,1/n)$ for $n \in \N$. 
+  These are all open intervals and they are nested, since if $n<m$ then $1/m < 1/n$ and so $(0,1/m) \subset (0,1/n)$. 
+  So $I_{n+1} \subset I_n$. \\
+
+  Now look at the intersection $\bigcap_{n=1}^\infty I_n$. 0 cannot be in any $I_m$ because our interval is open on 0.
+  Next, take any $x>0$ for $x$ to be in $I_n$ we need $0 < x < 1/n$. 
+  But as $n$ grows, $1/n$ gets smaller and smaller. 
+  Since $1/n \to 0$ as n increases. We can always pick an $n$ so large that $1/n$ becomes less then our orignal $x$. 
+  Once this happens, the condition $x < 1/n$ fails, so $x \notin (0,1/n)$. \\
+  So $x$ is not part of that subset and outside the interval and therefore is not in the intersection. 
+  You can do this for all $x>0$, no positive number can lie in all of the $I_n$. 
+  So for open intervals the intersection can be empty.
+\end{proofWithHibiscus}
+
+
+
+\section*{Ex 3.3}
+\addcontentsline{toc}{section}{Ex 1.3}
+
+\qs{}{
+  A real number $x$ is called \emph{algebraic} if there exist $n \in \bbN$ and $a_0, \dots, a_n \in \bbZ$, with $a_0 \neq 0$, such that
+  \begin{equation*}
+    a_0 x^n + a_1 x^{n-1} + \cdots + a_{n-1} x + a_n = 0.
+    \end{equation*}
+
+    \begin{enumerate}
+    \item
+    Prove that $\sqrt{5}$ and $\sqrt{2 + \sqrt{3}}$ are algebraic.
+
+    \item 
+    Prove that the set of all algebraic real numbers is countable.  (You may
+    use without proof the fact that a polynomial of degree $n$ has at most
+    $n$ roots.)
+
+    \item Prove that there exist real numbers which are not algebraic.
+  \end{enumerate}
+}
+
+\begin{proofWithHibiscus}
+  1. Let $y = \sqrt{5}$. To check if $y$ is algebraic we need to see if it is the root of a polynomial with integer coefficients. 
+  We can square both sides
+  \[
+    y^2 = 5 \Rightarrow
+    y^2 - 5 = 0.
+  \]
+  This is now a polynomial equation with integer coefficients. The polynomial is $x^2 - 5$. 
+  Our leading coefficient is $1$,  this means we satisfy the requirement of $a_{0} \neq 0$. 
+  Our $y$ being eqyal to $5$ is a solution to the polynomial which means that $\sqrt{5}$ is algebraic. \\ 
+
+
+  Let $z = \sqrt{2+\sqrt{3}}$. To check if $z$ is algebraic we want to see if it is the root of a polynomial with integer coefficients. 
+  We can square both sides
+  \[
+    z^2 = 2 + \sqrt{3} \Rightarrow
+    \sqrt{3} = z^2 - 2.
+  \]
+  We need to square again to remove the radical 
+  \[
+    (z^2 - 2)^2 = 3 \Rightarrow
+    z^4 - 4z^2 + 4 = 3 \Rightarrow 
+    z^4 - 4z^2 + 1 = 0.
+  \]
+  The polynomial is $x^4 - 4x^2 + 1$ has integer coefficients and the leading
+  coefficient is $1$, so it satisfies the requirement of $a_0 \neq 0$. 
+  z would be a solution to the polynomial so $\sqrt{2+\sqrt{3}}$ is algebraic.  \\
+
+  2. WTS that the set of all algebraic real numbers is countable. 
+  Every algebraic number is a root of some polynomial with integer coefficients. \\
+
+  We proved in class that the set $\Z$ is countable as you can make a bijection between it and $\N$, and any finite product of countable sets is also countable. 
+  So the set of all $(a_0,a_1,\dots,a_n)$ with $a_i\in\Z$ is countable. 
+  We also proved in class that the union of countable sets is counatiable, the set of all polynomials with integer coefficients is a union of countable sets, so it is countable. \\
+
+  We also know that a polynomial of degree $n$ has at most $n$ roots. 
+  So each polynomial gives only finitely many algebraic numbers. 
+  Taking the union over all polynomials, we get the set of all algebraic numbers. 
+  This is a countable union of finite sets, which as proved in class means its counatiable. 
+  So the set of all algebraic real numbers is countable. \\
+
+  3. WTS that there exist real numbers which are not algebraic. 
+  We already showed that the set of algebraic real numbers is countable. \\
+  
+  We also proved in class that the set of all real numbers $\R$ is uncountable. 
+  So if every real number were algebraic, then $\R$ would also have to be countable. 
+  But this is a contradiction since $\R$ is uncountable. \\
+  
+  Therefore there must be real numbers that are not algebraic. 
+\end{proofWithHibiscus}
+
+
+\section*{Ex 3.4}
+\addcontentsline{toc}{section}{Ex 3.4}
+
+\qs{}{
+  Suppose $a,b \in \R$ with $a<b$.
+  Prove that there are uncountably many irrational numbers
+  in the interval $(a,b)$.
+}
+
+\begin{proofWithHibiscus}
+  Assume for contradiction the irrationals in $(a,b)$ are countable, so we can list them as $x_1,x_2,x_3,\dots$. 
+  We could then build intervals $I_n=[a_n,b_n]$ where we start with $I_1\subset(a,b)$ that does not contain $x_1$. 
+  Given  an $I_n$ we can then pick $I_{n+1}\subset I_n$ that does not contain $x_{n+1}$.  \\
+
+  So we get a chain of nested intervals 
+  \[
+    I_1 \supset I_2 \supset I_3 \supset \dots
+  \] 
+  and their lengths $b_n-a_n$ shrink to $0$. 
+  The sequence of left endpoints $(a_n)$ is increasing and bounded above, while the sequence of right endpoints $(b_n)$ is decreasing and bounded below. 
+  So $a_n \to L$ and $b_n \to L$ for some $L \in \R$. \\
+
+  $L$ lies in every $I_n$, and since each $I_n \subset (a,b)$ we know $L \in (a,b)$. 
+  But we also made sure that at step $n$ that $x_n \notin I_n$, but $L \in I_n$. 
+  So $L \neq x_n$ for all $n$. 
+  That means $L$ is an irrational in $(a,b)$ that was not in our original list which is a contradiction so the irrationals in $(a,b)$ are uncountable.
+\end{proofWithHibiscus}
+
+
+\section*{Ex 3.5}
+\addcontentsline{toc}{section}{Ex 3.5}
+
+
+\qs{}{
+  Are the following sets finite, countable or uncountable? Prove your answers.
+  \begin{enumerate}
+      \item The set of all finite subsets of $\bbN$.
+      \item The set of all subsets of $\bbN$.
+      \item The set of all functions $f: \Q \to \Q$.
+  \end{enumerate}
+}
+
+\begin{proofWithHibiscus}
+  1. WTS that the set of all finite subsets of $\N$ is countable. 
+  We can split the set up by the size of the subsets. 
+  For each $k \in \N$, let $A_k$ be the set of subsets of $\N$ that have exactly $k$ elements. 
+  Then every finite subset must appear in one of these sets, so the collection of all finite subsets is 
+  \[
+    \bigcup_{k=0}^\infty A_k.
+  \]
+  
+  In class we proved that $\N$ is countable because we can build a bijection $f:\N\to\N$ with $f(n)=n$. 
+  We also proved that the cartesian product of countable sets is countable, so $\N^k$ is countable. 
+  Each $A_k$ can be injected into $\N^k$ where a $k$-element subset corresponds to a $k$-tuple 
+  so each $A_k$ is countable. 
+  
+  Finally, since the set of all finite subsets of $\N$ is a countable union of countable sets, 
+  it is countable. \\
+
+  2.   WTS that the set of all subsets of $\N$ is uncountable. 
+  Suppose for contradiction that it was countable. Then we could list all subsets like
+  \[
+    S_1, S_2, S_3, \dots
+  \]
+  where each $S_n \subseteq \N$. 
+
+  Now we construct a new subset $T$ of $\N$ that is not equal to any $S_n$. 
+  Define $T$ so that for each $n \in \N$, we include $n$ in $T$ if and only if $n \notin S_n$. 
+  This means that $T$ differs from $S_1$ at element $1$, it differs from $S_2$ at element $2$, and in general it differs from $S_n$ at element $n$. 
+
+  So $T \neq S_n$ for all $n$. But $T$ is still a subset of $\N$. 
+  This is a contradiction because we assumed our list contained all subsets. 
+
+  Therefore the set of all subsets of $\N$ cannot be countable. 
+  So it is uncountable. \\
+
+  3.  WTS that the set of all functions $f:\Q\to\Q$ is uncountable. 
+  In class we proved that $\Q$ is countable. So there is a bijection $b:\N\to\Q$. 
+  Using $b$ we can convert any function $f:\Q\to\Q$ into a function $h:\N\to\N$ by
+  \[
+    h(n)=b^{-1}(f(b(n))).
+  \]
+  It is a bijection so WTS that the set of all functions $\N\to\N$ is uncountable.
+  
+  Assume for contradiction that the set of all functions $\N\to\N$ is countable. 
+  Then we can list them as $f_1,f_2,f_3,\dots$. 
+  Define a new function $g:\N\to\N$ by
+  \[
+    g(n)=f_n(n)+1.
+  \]
+  For each $n$, we have $g(n)\neq f_n(n)$, so $g\neq f_n$ for every $n$ on the list. 
+  This contradicts the assumption that our list contained all functions $\N\to\N$. So the set of all functions $\N\to\N$ is uncountable. 
+  and since it was a bijection the set of all functions $\Q\to\Q$ is also uncountable.
+\end{proofWithHibiscus}
+
+
+
+
+\end{document}
