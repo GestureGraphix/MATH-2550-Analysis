@@ -33,7 +33,29 @@
 }
 
 \begin{proofWithHibiscus}
-  The 
+  1. We check the 4 conditions.  
+  First, $d(p,q)=|p^2-q^2| > 0$ which isn't always true for example $d(1,-1) = 0$ so this condition does not hold 
+  and so this is not a metric space. \\
+
+  2. We check the 4 conditions\\
+  First, $d(x,y) = |x - 2y| > 0 $ always so we satisfy the nonnegativity condition.
+  Second,  $d(p,p) = 0$ is not satisfied because $|p - 2p| = 0$ is only true when $p = 0$ since this fails this is not a metric space. \\
+
+  3. We check the 4 conditions.  
+  First, $d(x,y)=\frac{|x-y|}{1+|x-y|}\geq 0$ always.  
+  Second, $d(x,x)=\frac{0}{1+0}=0$, and if $d(x,y)=0$ then $|x-y|=0$ so $x=y$.  
+  Third, $d(x,y)=\frac{|x-y|}{1+|x-y|}=\frac{|y-x|}{1+|y-x|}=d(y,x)$.  
+  Fourth, we check the triangle inequality. Let $a=|x-y|$, $b=|y-z|$, $c=|x-z|$. Then $c\le a+b$ and the function $f(t)=\tfrac{t}{1+t}$ is increasing. So
+  \[
+  d(x,z)=f(c)\le f(a+b).
+  \]
+  We need $f(a+b)\le f(a)+f(b)$.  
+  \[
+  f(a)+f(b)-f(a+b)=1-\frac{1}{1+a}-\frac{1}{1+b}+\frac{1}{1+a+b}.
+  \]
+  Since $(1+a+b)\le (1+a)(1+b)$, we have $\frac{1}{1+a+b}\ge \frac{1}{(1+a)(1+b)}$, so the RHS is $\ge \frac{ab}{(1+a)(1+sob)}\ge 0$. So $f(a+b)\le f(a)+f(b)$. \\
+  All conditions met this is a metric space
+  
 \end{proofWithHibiscus}
 
 
@@ -56,8 +78,18 @@
 }
 
 \begin{proofWithHibiscus}
-  The 
-\end{proofWithHibiscus}
+  1. need to check the four conditions.  
+     (i) $d(p,q) \geq 0$ since $d(p,q)$ is either $0$ or $1$.  \\
+     (ii) $d(p,q) = 0$ iff $p=q$ by definition.  \\
+     (iii) $d(p,q) = d(q,p)$ because $p\neq q$ is the same as $q\neq p$.  \\
+     (iv) $d(p,q) \leq d(p,r) + d(r,q)$. if $p=q$ then $d(p,q)=0$ and the inequality is true. if $p\neq q$ then $d(p,q)=1$. if $r=p$ then RHS $=0+1=1$. if $r=q$ then RHS $=1+0=1$. if $r$ is different from both then RHS $=1+1=2$. in all cases the inequality holds. so this is a metric space.  \\
+  
+  2. for open neighborhoods $N_\epsilon(x)$. since $d(x,y)\in\{0,1\}$ we check cases. if $\epsilon=\tfrac12$ then only $y=x$ works so $N_{1/2}(x)=\{x\}$. if $\epsilon=1$ then again only $y=x$ works so $N_{1}(x)=\{x\}$. if $\epsilon=2$ then both $0$ and $1$ are less than $2$ so $N_{2}(x)=X$.  \\
+  
+  3. let $A\subset X$ and $x\in A$. then $N_{1/2}(x)=\{x\}\subset A$ so $A$ is open. but then $A^c$ has the same property so $A^c$ is also open. so every subset of $X$ is both open and closed.  
+  \end{proofWithHibiscus}
+  
+  
 
 
 
@@ -70,7 +102,24 @@
 }
 
 \begin{proofWithHibiscus}
-  The
+  Let $(x,y) \in E$. WTS that it is an interior point. 
+  Since $x < y$ we have $y - x > 0$. Let $y - x = \lambda$ and set $\epsilon = \tfrac{\lambda}{3}$.  
+  Now WTS $N_{\epsilon}(x,y) \subset E$.  
+
+  So take another point $(a,b) = q \in \R^{2}$ with $d(p,q) = \sqrt{(x-a)^{2} + (y-b)^{2}} < \epsilon$.  
+  Then $(x-a)^{2} \le (x-a)^{2} + (y-b)^{2} < \epsilon^{2}$, so $|x-a| < \epsilon$, and similarly $|y-b| < \epsilon$.  
+
+  Then 
+  \[
+  b-a = (y-x) + (b-y) - (a-x).
+  \]
+  Using triangle inequality,
+  \[
+  b-a \ge (y-x) - |b-y| - |a-x| > \lambda - \epsilon - \epsilon = \lambda - 2\epsilon = \tfrac{\lambda}{3} > 0.
+  \]
+  So $b>a$, meaning $(a,b) \in E$.  
+
+  So $N_{\epsilon}(x,y) \subset E$. Since $(x,y)$ was arbitrary, every point of $E$ is interior, so $E$ is open.     
 \end{proofWithHibiscus}
 
 
@@ -83,9 +132,13 @@
 }
 
 \begin{proofWithHibiscus}
-
-\end{proofWithHibiscus}
-
+  \[
+  A=\Big\{\tfrac{1}{n}\,:\,n\in\mathbb{N}\Big\}\ \cup\ 
+    \Big\{1+\tfrac{1}{n}\,:\,n\in\mathbb{N}\Big\}\ \cup\ 
+    \Big\{2+\tfrac{1}{n}\,:\,n\in\mathbb{N}\Big\}.
+  \]
+  $A\subset[0,3]$, so it’s bounded. The exactly three limit points are $0,1,2$.
+  \end{proofWithHibiscus}
 
 \section*{Ex 3.5}
 \addcontentsline{toc}{section}{Ex 3.5}
@@ -104,9 +157,31 @@
 }
 
 \begin{proofWithHibiscus}
-  The 
-\end{proofWithHibiscus}
-
+  1. WTS $E^\circ$ is open. Take $x\in E^\circ$. By definition $\exists\,\epsilon>0$ with $N_\epsilon(x)\subset E$. 
+     For any $y\in N_\epsilon(x)$ pick $\delta:=\epsilon - d(x,y)>0$. Then $N_\delta(y)\subset N_\epsilon(x)\subset E$,
+     so $y$ is also interior to $E$. so each point of $E^\circ$ has a neighborhood inn $E^\circ$, so $E^\circ$ is open.
+  
+  2. WTS: $E$ open $\Leftrightarrow E^\circ=E$.  
+     ($\Rightarrow$) If $E$ is open and $x\in E$, then some neighborhood around $x$ sits in $E$, so $x\in E^\circ$. Hence $E\subset E^\circ$,
+     and always $E^\circ\subset E$, so $E^\circ=E$.  
+     ($\Leftarrow$) If $E^\circ=E$, then by (1) $E$ is open.
+  
+  3. Let $G\subset E$ be open. Take $x\in G$. Since $G$ is open, $\exists\,\epsilon>0$ with $N_\epsilon(x)\subset G\subset E$.
+     So $x$ is interior to $E$, i.e. $x\in E^\circ$. Hence $G\subset E^\circ$.
+  
+  4. Claim: $(E^\circ)^c=\overline{E^c}$.  
+     ($\subset$) If $x\notin E^\circ$, then no neighborhood around $x$ sits inside $E$. Equivalently, every neighborhood around $x$ meets $E^c$,
+     i.e. $x\in\overline{E^c}$.  
+     ($\supset$) If $x\in\overline{E^c}$, every neighborhood around $x$ meets $E^c$, so no neighborhood is contained in $E$; hence $x\notin E^\circ$.
+     So equality holds.
+  
+  5. Do $E$ and $\overline{E}$ always have the same interiors? No. Example in $\R$:
+     let $E=\mathbb{Q}$. Then $E^\circ=\varnothing$, but $\overline{E}=\mathbb{R}$ so $(\overline{E})^\circ=\mathbb{R}$.
+  
+  6. Do $E$ and $E^\circ$ always have the same closures? No. Same space, take $E=\mathbb{Q}$.
+     Then $E^\circ=\varnothing$ so $\overline{E^\circ}=\varnothing$, while $\overline{E}=\mathbb{R}$.
+  \end{proofWithHibiscus}
+  
 
 
 
